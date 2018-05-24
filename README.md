@@ -1,18 +1,32 @@
 # guess_pairs.py 
 A BIP39 Seed Bruteforce script for cryptogreetings puzzle
 
+### Quick Start
+```
+sudo apt-get install git python3 python3-pip protobuf-compiler -y
+pip3 install ecdsa pyaes pbkdf2 requests qrcode
+git clone https://github.com/spesmilo/electrum.git
+cd electrum
+python3 setup.py install 
+cd ..
+git clone https://github.com/HN-AG/puzzles
+cd puzzles/
+python3 guess_pairs.py
+```
+
 ### Dependencies
 ```
 sudo apt-get install python3 python3-pip protobuf-compiler
 pip3 install ecdsa pyaes pbkdf2 requests qrcode
 ```
+
 ### To install electrum use:
 ```
 git clone https://github.com/spesmilo/electrum.git
 cd electrum
 python3 setup.py install 
 ```
-## OR 
+### OR 
 
 ```
 git clone https://github.com/spesmilo/electrum.git
