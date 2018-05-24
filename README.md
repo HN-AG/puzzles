@@ -1,5 +1,12 @@
-# guess_pairs.py 
-A BIP39 Seed Bruteforce script for cryptogreetings puzzle
+# BIP39 Seed Bruteforce (Python 3).
+
+## guess_pairs.py 
+- Pairs up BIP39 words allowing for known pairs to be added randomly into every seed attempt.
+- Balance checking using Electrum servers
+
+## guess_seeds.py 
+- Randomly creates a 24 words seed using the chosen array of BIP39 words
+- Balance checking using Electrum servers
 
 ### Quick Start
 ```
