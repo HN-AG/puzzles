@@ -1,21 +1,31 @@
 # guess_pairs.py 
 A BIP39 Seed Bruteforce script for cryptogreetings puzzle
 
-You will require Python3
-
-To install electrum use:
+### Dependencies
+```
+sudo apt-get install python3 python3-pip protobuf-compiler
+pip3 install ecdsa pyaes pbkdf2 requests qrcode
+```
+### To install electrum use:
 ```
 git clone https://github.com/spesmilo/electrum.git
 cd electrum
-python3 setup.py install
+python3 setup.py install 
+```
+## OR 
+
+```
+git clone https://github.com/spesmilo/electrum.git
+cd electrum
+pip3 install .[full]
 ```
 
-Enter your selection of BIP39 words into SEED_ARRAY
+### Enter your selection of BIP39 words into SEED_ARRAY
 ```
 SEED_ARRAY=["agree", "air", "cash", "define", "else", "end", "find", "gap", "just", "law", "must", "now", "old", "online", "order", "pool", "post", "problem", "proof", "rely", "risk", "run", "sign", "stay", "trust", "try", "zero"]
 ```
 
-Enter any known pairs into KNOWN_PAIR_ARRAY
+### Enter any known pairs into KNOWN_PAIR_ARRAY
 ```
 KNOWN_PAIR_ARRAY=["code easily", "attack early", "almost open"]
 ```
