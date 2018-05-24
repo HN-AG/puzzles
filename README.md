@@ -20,6 +20,6 @@ Enter any known pairs into KNOWN_PAIR_ARRAY
 KNOWN_PAIR_ARRAY=["code easily", "attack early", "almost open"]
 ```
 
-
+Original Script Credit: https://gist.github.com/kenprice/1a3c5009f5fdd8c801bba6620b779307
 
 ## Donations: 1KbuagPbX9bRDzvRCky58L8jVRbj9mnR92
